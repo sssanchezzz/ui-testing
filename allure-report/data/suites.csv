@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Dec 04 18:44:12 EET 2021","Sat Dec 04 18:44:23 EET 2021","10909","","Testing Adding To Cart","","Testing Adding To Cart","Searching for a product and adding it to the cart","Searching for a product and adding it to the cart","Testing adding searched item to cart"
+"passed","Sat Dec 04 18:44:07 EET 2021","Sat Dec 04 18:44:12 EET 2021","4742","","Testing Search","","Testing Search","Entering Search Keywords","Entering Search Keywords","Testing search on makeup.com"
+"passed","Sat Dec 04 18:44:23 EET 2021","Sat Dec 04 18:44:39 EET 2021","16006","","Testing Adding To Favourites","","Testing Adding To Favourites","Searching for a product and adding it to favourites","Searching for a product and adding it to favourites","testing adding searched item to favourites"
+"passed","Sat Dec 04 18:43:54 EET 2021","Sat Dec 04 18:44:07 EET 2021","13234","","Testing login","","Testing login","Typed email","Typed email","testing login to makeup"

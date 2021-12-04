@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Typed email",
+    "uid" : "eb78f5f26193118f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638636234511,
+      "stop" : 1638636247745,
+      "duration" : 13234
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "Entering Search Keywords",
+    "uid" : "d79dd4c3587f16a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638636247752,
+      "stop" : 1638636252494,
+      "duration" : 4742
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "Searching for a product and adding it to the cart",
+    "uid" : "44e21ad9f15aca30",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638636252496,
+      "stop" : 1638636263405,
+      "duration" : 10909
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  }, {
+    "name" : "Searching for a product and adding it to favourites",
+    "uid" : "70b9a4001fe62eb6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638636263408,
+      "stop" : 1638636279414,
+      "duration" : 16006
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-96.0.4664.55" ]
+  } ]
+}

@@ -1,0 +1,113 @@
+{
+  "uid" : "eb78f5f26193118f",
+  "name" : "Typed email",
+  "fullName" : "Testing login.Typed email",
+  "historyId" : "d68a721b0144efeb6e698ad532d7208a",
+  "time" : {
+    "start" : 1638636234511,
+    "stop" : 1638636247745,
+    "duration" : 13234
+  },
+  "description" : "testing login to makeup",
+  "descriptionHtml" : "<p>testing login to makeup</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Testing login",
+      "time" : {
+        "start" : 1638636237561,
+        "stop" : 1638636237561,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "entering email and password",
+      "time" : {
+        "start" : 1638636237561,
+        "stop" : 1638636247312,
+        "duration" : 9751
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check if logged in",
+      "time" : {
+        "start" : 1638636247614,
+        "stop" : 1638636247614,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing login"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Typed email"
+  }, {
+    "name" : "package",
+    "value" : "Testing login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb78f5f26193118f.json",
+  "parameterValues" : [ "chrome-96.0.4664.55" ]
+}

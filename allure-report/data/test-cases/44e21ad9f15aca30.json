@@ -1,0 +1,98 @@
+{
+  "uid" : "44e21ad9f15aca30",
+  "name" : "Searching for a product and adding it to the cart",
+  "fullName" : "Testing Adding To Cart.Searching for a product and adding it to the cart",
+  "historyId" : "fbbeeb2baf2a734048af12171cb97159",
+  "time" : {
+    "start" : 1638636252496,
+    "stop" : 1638636263405,
+    "duration" : 10909
+  },
+  "description" : "Testing adding searched item to cart",
+  "descriptionHtml" : "<p>Testing adding searched item to cart</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Testing adding to cart",
+      "time" : {
+        "start" : 1638636255193,
+        "stop" : 1638636255194,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "search keywords",
+      "time" : {
+        "start" : 1638636255194,
+        "stop" : 1638636263184,
+        "duration" : 7990
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Adding To Cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Adding To Cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Searching for a product and adding it to the cart"
+  }, {
+    "name" : "package",
+    "value" : "Testing Adding To Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44e21ad9f15aca30.json",
+  "parameterValues" : [ "chrome-96.0.4664.55" ]
+}

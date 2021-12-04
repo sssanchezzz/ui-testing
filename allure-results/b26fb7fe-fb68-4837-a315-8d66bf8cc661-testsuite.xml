@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638636247750' stop='1638636252494'>
+    <name>Testing Search</name>
+    <title>Testing Search</title>
+    <test-cases>
+        <test-case start='1638636247752' status='passed' stop='1638636252494'>
+            <name>Entering Search Keywords</name>
+            <title>Entering Search Keywords</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+            </parameters>
+            <steps>
+                <step start='1638636251347' status='passed' stop='1638636251347'>
+                    <name>Testing search</name>
+                    <title>Testing search</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638636251347' status='passed' stop='1638636252399'>
+                    <name>Entering keywords</name>
+                    <title>Entering keywords</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Testing search on makeup.com</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

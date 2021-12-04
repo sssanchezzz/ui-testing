@@ -1,0 +1,98 @@
+{
+  "uid" : "70b9a4001fe62eb6",
+  "name" : "Searching for a product and adding it to favourites",
+  "fullName" : "Testing Adding To Favourites.Searching for a product and adding it to favourites",
+  "historyId" : "ec5ef7019683b50f8947d8529f098d9",
+  "time" : {
+    "start" : 1638636263408,
+    "stop" : 1638636279414,
+    "duration" : 16006
+  },
+  "description" : "testing adding searched item to favourites",
+  "descriptionHtml" : "<p>testing adding searched item to favourites</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Testing adding to favourites",
+      "time" : {
+        "start" : 1638636266708,
+        "stop" : 1638636266708,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "entering keywords",
+      "time" : {
+        "start" : 1638636266708,
+        "stop" : 1638636279272,
+        "duration" : 12564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Adding To Favourites"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Adding To Favourites"
+  }, {
+    "name" : "testMethod",
+    "value" : "Searching for a product and adding it to favourites"
+  }, {
+    "name" : "package",
+    "value" : "Testing Adding To Favourites"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70b9a4001fe62eb6.json",
+  "parameterValues" : [ "chrome-96.0.4664.55" ]
+}

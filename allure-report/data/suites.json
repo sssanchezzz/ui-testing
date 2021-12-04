@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Testing login",
+    "children" : [ {
+      "name" : "Typed email",
+      "uid" : "eb78f5f26193118f",
+      "parentUid" : "f092e6bca801a95ef08bafb03cd5138b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638636234511,
+        "stop" : 1638636247745,
+        "duration" : 13234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    } ],
+    "uid" : "f092e6bca801a95ef08bafb03cd5138b"
+  }, {
+    "name" : "Testing Search",
+    "children" : [ {
+      "name" : "Entering Search Keywords",
+      "uid" : "d79dd4c3587f16a",
+      "parentUid" : "812c5669086ade54a50adbacffdad9de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638636247752,
+        "stop" : 1638636252494,
+        "duration" : 4742
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    } ],
+    "uid" : "812c5669086ade54a50adbacffdad9de"
+  }, {
+    "name" : "Testing Adding To Cart",
+    "children" : [ {
+      "name" : "Searching for a product and adding it to the cart",
+      "uid" : "44e21ad9f15aca30",
+      "parentUid" : "d4bef071d09a9a9212d0e4e625616999",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638636252496,
+        "stop" : 1638636263405,
+        "duration" : 10909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    } ],
+    "uid" : "d4bef071d09a9a9212d0e4e625616999"
+  }, {
+    "name" : "Testing Adding To Favourites",
+    "children" : [ {
+      "name" : "Searching for a product and adding it to favourites",
+      "uid" : "70b9a4001fe62eb6",
+      "parentUid" : "821021f13c1422333130a563f6b7a15b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638636263408,
+        "stop" : 1638636279414,
+        "duration" : 16006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    } ],
+    "uid" : "821021f13c1422333130a563f6b7a15b"
+  } ]
+}

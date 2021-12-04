@@ -1,0 +1,41 @@
+[ {
+  "uid" : "44e21ad9f15aca30",
+  "name" : "Searching for a product and adding it to the cart",
+  "time" : {
+    "start" : 1638636252496,
+    "stop" : 1638636263405,
+    "duration" : 10909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d79dd4c3587f16a",
+  "name" : "Entering Search Keywords",
+  "time" : {
+    "start" : 1638636247752,
+    "stop" : 1638636252494,
+    "duration" : 4742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70b9a4001fe62eb6",
+  "name" : "Searching for a product and adding it to favourites",
+  "time" : {
+    "start" : 1638636263408,
+    "stop" : 1638636279414,
+    "duration" : 16006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb78f5f26193118f",
+  "name" : "Typed email",
+  "time" : {
+    "start" : 1638636234511,
+    "stop" : 1638636247745,
+    "duration" : 13234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

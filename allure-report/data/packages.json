@@ -1,0 +1,73 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Testing login",
+    "children" : [ {
+      "name" : "Typed email",
+      "uid" : "eb78f5f26193118f",
+      "parentUid" : "79860832661bb115db09bd5b379a7432",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638636234511,
+        "stop" : 1638636247745,
+        "duration" : 13234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    } ],
+    "uid" : "79860832661bb115db09bd5b379a7432"
+  }, {
+    "name" : "Testing Search",
+    "children" : [ {
+      "name" : "Entering Search Keywords",
+      "uid" : "d79dd4c3587f16a",
+      "parentUid" : "c48bfa9ae78e51bf8fc6f8dc6186bbdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638636247752,
+        "stop" : 1638636252494,
+        "duration" : 4742
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    } ],
+    "uid" : "c48bfa9ae78e51bf8fc6f8dc6186bbdc"
+  }, {
+    "name" : "Testing Adding To Cart",
+    "children" : [ {
+      "name" : "Searching for a product and adding it to the cart",
+      "uid" : "44e21ad9f15aca30",
+      "parentUid" : "80e3d4ebfdcf40e2c1859206862aa0e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638636252496,
+        "stop" : 1638636263405,
+        "duration" : 10909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    } ],
+    "uid" : "80e3d4ebfdcf40e2c1859206862aa0e0"
+  }, {
+    "name" : "Testing Adding To Favourites",
+    "children" : [ {
+      "name" : "Searching for a product and adding it to favourites",
+      "uid" : "70b9a4001fe62eb6",
+      "parentUid" : "31d59a604ba3067f6b3ffa58bcd5393c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638636263408,
+        "stop" : 1638636279414,
+        "duration" : 16006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    } ],
+    "uid" : "31d59a604ba3067f6b3ffa58bcd5393c"
+  } ]
+}
