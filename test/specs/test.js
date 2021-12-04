@@ -2,7 +2,6 @@ const reporter = require('@wdio/allure-reporter').default;
 const { email, password } = require('../../credentials');
 const { Makeup } = require('../pages/Makeup');
 const { expect } = require('chai');
-// const { done: Done } = require('mocha');
 
 describe('Testing login', function () {
     let page;
@@ -12,7 +11,6 @@ describe('Testing login', function () {
         page = await makeup.openMakeup('https://makeup.com.ua/');
     });
     it('Typed email', async function () {
-        // console.log(login);
         reporter.addStep('Testing login');
         reporter.addDescription('testing login to makeup');
         reporter.startStep('entering email and password');
@@ -47,7 +45,6 @@ describe('Testing Search', async function () {
         page = await makeup.openMakeup('https://makeup.com.ua/');
     });
     it('Entering Search Keywords', async function () {
-        // console.log(login);
         reporter.addStep('Testing search');
         reporter.addDescription('Testing search on makeup.com');
         reporter.startStep('Entering keywords');
@@ -61,7 +58,6 @@ describe('Testing Search', async function () {
                 'body > div.site-wrap > div.main-wrap > div > div > div.search-results.info-text'
             ).innerText;
         });
-        // console.log('hahahakfld jfks');
         console.log(cab);
 
         expect(cab.includes(searchString));
@@ -81,7 +77,6 @@ describe('Testing Adding To Cart', async function () {
         page = await makeup.openMakeup('https://makeup.com.ua/');
     });
     it('Searching for a product and adding it to the cart', async function () {
-        // console.log(login);
         reporter.addStep('Testing adding to cart');
         reporter.addDescription('Testing adding searched item to cart');
         reporter.startStep('search keywords');
@@ -89,10 +84,7 @@ describe('Testing Adding To Cart', async function () {
         const search = await makeup.search(page);
         const { searchByName } = search;
         const searchResults = await searchByName(searchString);
-        // await searchResults.waitForTimeout(300);
         const addCart = await makeup.addToCart(searchResults);
-
-        // const fav = await addToFavourites();
 
         const cab = await addCart.evaluate(() => {
             return document.querySelector(
@@ -118,7 +110,6 @@ describe('Testing Adding To Favourites', async function () {
         page = await makeup.openMakeup('https://makeup.com.ua/');
     });
     it('Searching for a product and adding it to favourites', async function () {
-        // console.log(login);
         reporter.addStep('Testing adding to favourites');
         reporter.addDescription('testing adding searched item to favourites');
         reporter.startStep('entering keywords');
@@ -132,7 +123,6 @@ describe('Testing Adding To Favourites', async function () {
         const { addToFavourites } = await makeup.search(searchResults);
         const fav = await addToFavourites();
 
-        // const fav = await addToFavourites();
         const cab = await fav.evaluate(() => {
             return document.querySelector(
                 '#popup__window > div.popup-content > div > div.confirm-wish-list-changes.specify-message-block'
